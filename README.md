@@ -9,3 +9,4 @@ My Medium account: https://medium.com/@sebastiankt9
 
 **Basics of Using Pre-trained GloVe Vectors in Python**: adversarial-attacks-defenses/
 
+**Implementing a GAN in Keras**: gans/
