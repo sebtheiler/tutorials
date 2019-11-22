@@ -1,5 +1,5 @@
 # tutorials
-All of the tutorials for my Medium articles
+All of the code for my Medium articles
 
 My Medium account: https://medium.com/@sebastiankt9
 
