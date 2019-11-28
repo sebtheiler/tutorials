@@ -12,3 +12,5 @@ My Medium account: https://medium.com/@sebastiankt9
 **Implementing a GAN in Keras**: gans/
 
 **Transforming the World Into Paintings with CycleGAN**: cyclegan/
+
+**tf.GradientTape Explained for Keras Users**: gradienttape-explained/
