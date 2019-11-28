@@ -5,9 +5,9 @@ My Medium account: https://medium.com/@sebastiankt9
 
 **Multiprocessing for Data Scientists in Python**: multiprocessing/
 
-**Implementing Adversarial Attacks and Defenses in Keras & Tensorflow 2.0**: using-pretrained-glove-vectors/
+**Implementing Adversarial Attacks and Defenses in Keras & Tensorflow 2.0**: adversarial-attacks-defenses/
 
-**Basics of Using Pre-trained GloVe Vectors in Python**: adversarial-attacks-defenses/
+**Basics of Using Pre-trained GloVe Vectors in Python**: using-pretrained-glove-vectors/
 
 **Implementing a GAN in Keras**: gans/
 
