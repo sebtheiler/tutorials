@@ -3,7 +3,9 @@ All of the code for my Medium articles
 
 My Medium account: https://medium.com/@sebastiankt9
 
- * [**tf.GradientTape Explained for Keras Users**](https://medium.com/analytics-vidhya/tf-gradienttape-explained-for-keras-users-cc3f06276f22): gradienttape-explained/
+* [**Building a Twitter Sentiment-Analysis App Using Streamlit**](https://medium.com/analytics-vidhya/building-a-twitter-sentiment-analysis-app-using-streamlit-d16e9f5591f8): twitter-sentiment/
+
+* [**tf.GradientTape Explained for Keras Users**](https://medium.com/analytics-vidhya/tf-gradienttape-explained-for-keras-users-cc3f06276f22): gradienttape-explained/
 
 * [**Transforming the World Into Paintings with CycleGAN**](https://medium.com/analytics-vidhya/transforming-the-world-into-paintings-with-cyclegan-6748c0b85632): cyclegan/
 
