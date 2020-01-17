@@ -3,6 +3,8 @@ All of the code for my Medium articles
 
 My Medium account: https://medium.com/@sebastiankt9
 
+* [**The Alpaca API Explained for People Who Want to Get Started Trading**](https://medium.com/analytics-vidhya/the-alpaca-api-explained-for-people-who-want-to-get-started-trading-7e57f0af7a): trading/
+
 * [**Building a Twitter Sentiment-Analysis App Using Streamlit**](https://medium.com/analytics-vidhya/building-a-twitter-sentiment-analysis-app-using-streamlit-d16e9f5591f8): twitter-sentiment/
 
 * [**tf.GradientTape Explained for Keras Users**](https://medium.com/analytics-vidhya/tf-gradienttape-explained-for-keras-users-cc3f06276f22): gradienttape-explained/
