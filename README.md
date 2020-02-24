@@ -3,6 +3,8 @@ All of the code for my Medium articles
 
 My Medium account: https://medium.com/@sebastiankt9
 
+* [**Basics of Using TensorBoard in TensorFlow 1 & 2**](https://medium.com/analytics-vidhya/basics-of-using-tensorboard-in-tensorflow-1-2-b715b068ac5a): using-tensorboard/
+
 * [**Get More Out of Google Colab**](https://medium.com/analytics-vidhya/get-more-out-of-google-colab-5bf9d9519a56): gcolab-tricks/
 
 * [**The Alpaca API Explained for People Who Want to Get Started Trading**](https://medium.com/analytics-vidhya/the-alpaca-api-explained-for-people-who-want-to-get-started-trading-7e57f0af7a): trading/
