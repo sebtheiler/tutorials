@@ -7,10 +7,10 @@ img_rows, img_cols, channels = 256, 256, 3
 weight_initializer = RandomNormal(stddev=0.02)
 
 # "c7s1-k denotes a 7×7 Convolution-InstanceNorm-ReLU with k filters and stride 1"
-def c7s1k(input, k):
+def c7s1k(input, k, activation):
     block = Conv2D(k, (7, 7), padding='same', kernel_initializer=weight_initializer)(input)
     block = InstanceNormalization(axis=-1)(block)
-    block = Activation('relu')(block)
+    block = Activation(activation)(block)
 
     return block
 
@@ -31,7 +31,7 @@ def Rk(input, k):
     block = Conv2D(k, (3, 3), padding='same', kernel_initializer=weight_initializer)(block)
     block = InstanceNormalization(axis=-1)(block)
 
-    return Concatenate()([block, input])
+    return block + input
 
 # "uk denotes a 3×3 fractional-strided-ConvolutionInstanceNorm-ReLU layer with k filters and stride ½"
 def uk(input, k):
@@ -46,7 +46,7 @@ def uk(input, k):
 def generator(res_layers=9):
     gen_input = Input(shape=(img_rows, img_cols, channels))
 
-    gen = c7s1k(gen_input, 64)
+    gen = c7s1k(gen_input, 64, 'relu')
     gen = dk(gen, 128)
     gen = dk(gen, 256)
 
@@ -56,6 +56,6 @@ def generator(res_layers=9):
     gen = uk(gen, 128)
     gen = uk(gen, 64)
 
-    gen = c7s1k(gen, 3)
+    gen = c7s1k(gen, 3, 'tanh')
 
     return Model(gen_input, gen)
