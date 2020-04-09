@@ -22,3 +22,11 @@ My Medium account: https://medium.com/@sebastiankt9
 * [**Implementing Adversarial Attacks and Defenses in Keras & Tensorflow 2.0**](https://medium.com/analytics-vidhya/implementing-adversarial-attacks-and-defenses-in-keras-tensorflow-2-0-cab6120c5715): adversarial-attacks-defenses/
 
 * [**Basics of Using Pre-trained GloVe Vectors in Python**](https://medium.com/analytics-vidhya/basics-of-using-pre-trained-glove-vectors-in-python-d38905f356db): using-pretrained-glove-vectors/
+
+
+
+### Hall of fame
+
+The following is a list of people who have contributed to this repository/my Medium through things such as spotting typos, finding bugs, or giving suggestions.  If you believe you should be on this list and aren't, or if you are on this list and would like to be taken off, let me know and I will update it as soon as possible.
+
+[Yury Petrov](https://medium.com/@petrovy1 "Yury Petrov's Medium - Mar 30"), [АндрейКо](https://github.com/Alster "АндрейКо's GitHub - Mar 26"), [Emerging Mind](https://medium.com/@emergingmind "Emerging Mind's Medium - Mar 18"), [SiamakShams](https://github.com/SiamakShams "SiamakSham's GitHub - Mar 8"), [Peter Mayhew](https://medium.com/@petermayhew_40839 "Peter Mayhew's Medium - Jan 5"), [Rafael Rivadeneira](https://github.com/rafariva "Rafael Rivadeneir's GitHub - Dec 17")
