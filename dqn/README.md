@@ -1,7 +1,7 @@
 # Building a Powerful DQN in TensorFlow 2.0 (explanation & tutorial)
 #### And scoring 350+ by implementing extensions such as double dueling DQN and prioritized experience replay
 
-Available here: Coming soon!
+Available here: https://medium.com/analytics-vidhya/building-a-powerful-dqn-in-tensorflow-2-0-explanation-tutorial-d48ea8f3177a
 
 Explanation of files:
 * `train_dqn.ipynb`: The Jupyter Notebook for training the DQN
