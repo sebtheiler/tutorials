@@ -3,6 +3,8 @@ All of the code for my Medium articles
 
 My Medium account: https://medium.com/@sebastiankt9
 
+* [**Building a Powerful DQN in TensorFlow 2.0 (explanation & tutorial)**](https://medium.com/analytics-vidhya/building-a-powerful-dqn-in-tensorflow-2-0-explanation-tutorial-d48ea8f3177a): dqn/
+
 * [**Basics of Using TensorBoard in TensorFlow 1 & 2**](https://medium.com/analytics-vidhya/basics-of-using-tensorboard-in-tensorflow-1-2-b715b068ac5a): using-tensorboard/
 
 * [**Get More Out of Google Colab**](https://medium.com/analytics-vidhya/get-more-out-of-google-colab-5bf9d9519a56): gcolab-tricks/
