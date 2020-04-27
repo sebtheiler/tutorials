@@ -5,16 +5,14 @@ import numpy as np
 import os
 
 import tensorflow as tf
-from agent import Agent
-from gamewrapper import GameWrapper
 from config import (BATCH_SIZE, CLIP_REWARD, DISCOUNT_FACTOR, ENV_NAME,
                     EVAL_LENGTH, FRAMES_BETWEEN_EVAL, INPUT_SHAPE,
                     LEARNING_RATE, LOAD_FROM, MAX_EPISODE_LENGTH,
                     MAX_NOOP_STEPS, MEM_SIZE, MIN_REPLAY_BUFFER_SIZE,
-                    SAVE_PATH, TOTAL_FRAMES, UPDATE_FREQ, WRITE_TENSORBOARD)
-from dqn import build_q_network
-from process_frame import process_frame
-from replay_buffer import ReplayBuffer
+                    PRIORITY_SCALE, SAVE_PATH, TOTAL_FRAMES, UPDATE_FREQ,
+                    WRITE_TENSORBOARD)
+from train_dqn import (Agent, GameWrapper, ReplayBuffer, build_q_network,
+                       process_frame)
 
 # My installations require I run this to avoid errors with cuDNN.
 # You can remove it if your system doesn't require it.
