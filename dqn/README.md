@@ -5,6 +5,7 @@ Available here: https://medium.com/analytics-vidhya/building-a-powerful-dqn-in-t
 
 Explanation of files:
 * `train_dqn.ipynb`: The Jupyter Notebook for training the DQN
+* `train_dqn.py`: The regular Python file version of the Jupyter Notebook. This is also where we import classes from.
 * `config.py`: The parameters and config for the model and environnment
 * `evaluation.py`: Load a saved agent and watch it play
 
