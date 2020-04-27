@@ -27,7 +27,7 @@ if gpus:
         print(e)
 
 # Change this to the path of the model you would like to visualize
-RESTORE_PATH = 'breakout-saves_redo/save-11379708'
+RESTORE_PATH = None
 
 # Create environment
 game_wrapper = GameWrapper(ENV_NAME, MAX_NOOP_STEPS)
