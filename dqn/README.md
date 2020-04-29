@@ -3,11 +3,18 @@
 
 Available here: https://medium.com/analytics-vidhya/building-a-powerful-dqn-in-tensorflow-2-0-explanation-tutorial-d48ea8f3177a
 
+# What Does a DQN Think?
+#### A brief visualization of how a DQN chooses to play Breakout
+
+Available here: COMING SOON!
+
 Explanation of files:
 * `train_dqn.ipynb`: The Jupyter Notebook for training the DQN
 * `train_dqn.py`: The regular Python file version of the Jupyter Notebook. This is also where we import classes from.
 * `config.py`: The parameters and config for the model and environnment
 * `evaluation.py`: Load a saved agent and watch it play
+* `visualize.py`: Watch the DQN's "thoughts" as it plays (code for second article)
+* `visualize-replaybuffer.py`: Turn the DQN's experiences into a scatterplot (code for second article)
 
 ---
 

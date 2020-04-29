@@ -29,6 +29,9 @@ if gpus:
 # Change this to the path of the model you would like to visualize
 RESTORE_PATH = None
 
+if RESTORE_PATH is None:
+    raise UserWarning('Please change the variable `RESTORE_PATH` to where you would like to load the model from. If you haven\'t trained a model, try \'example-save\'')
+
 # Create environment
 game_wrapper = GameWrapper(ENV_NAME, MAX_NOOP_STEPS)
 print("The environment has the following {} actions: {}".format(game_wrapper.env.action_space.n, game_wrapper.env.unwrapped.get_action_meanings()))

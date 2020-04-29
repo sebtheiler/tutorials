@@ -3,6 +3,8 @@ All of the code for my Medium articles
 
 My Medium account: https://medium.com/@sebastiankt9
 
+* [**What Does a DQN Think?**](https://medium.com/analytics-vidhya/what-does-a-dqn-think-4f9c9517f7ed): [dqn/](dqn/)
+
 * [**Building a Powerful DQN in TensorFlow 2.0 (explanation & tutorial)**](https://medium.com/analytics-vidhya/building-a-powerful-dqn-in-tensorflow-2-0-explanation-tutorial-d48ea8f3177a): [dqn/](dqn/)
 
 * [**Basics of Using TensorBoard in TensorFlow 1 & 2**](https://medium.com/analytics-vidhya/basics-of-using-tensorboard-in-tensorflow-1-2-b715b068ac5a): [using-tensorboard/](using-tensorboard/)
