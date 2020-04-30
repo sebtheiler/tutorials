@@ -6,7 +6,7 @@ Available here: https://medium.com/analytics-vidhya/building-a-powerful-dqn-in-t
 # What Does a DQN Think?
 #### A brief visualization of how a DQN chooses to play Breakout
 
-Available here: COMING SOON!
+Available here: https://medium.com/analytics-vidhya/what-does-a-dqn-think-4f9c9517f7ed
 
 Explanation of files:
 * `train_dqn.ipynb`: The Jupyter Notebook for training the DQN
