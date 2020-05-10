@@ -17,3 +17,11 @@ Download the example files for `multiprocessing-load_images.py` from [here](http
 * opencv==3.4.2
 
 The code will likely still work with other versions of these packages, but that hasn't been tested.
+
+### Conda Instructions
+```
+conda create -n multiprocessing -y python=3.7.7
+conda activate multiprocessing
+conda install -y -c conda-forge sharedarray
+conda install -y opencv==3.4.2
+```
