@@ -22,6 +22,6 @@ The code will likely still work with other versions of these packages, but that 
 ```
 conda create -n multiprocessing -y python=3.7.7
 conda activate multiprocessing
-conda install -y -c conda-forge sharedarray
+conda install -y -c conda-forge sharedarray==3.2.1
 conda install -y opencv==3.4.2
 ```
