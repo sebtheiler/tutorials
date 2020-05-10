@@ -71,7 +71,7 @@ def create_generator():
     generator.compile(loss='binary_crossentropy', optimizer=optimizer)
     return generator
 
-def create_descriminator():
+def create_discriminator():
     discriminator = Sequential()
     
     discriminator.add(Conv2D(64, (3, 3), padding='same', kernel_initializer=RandomNormal(0, 0.02), input_shape=(img_cols, img_rows, channels)))
@@ -93,7 +93,7 @@ def create_descriminator():
     discriminator.compile(loss='binary_crossentropy', optimizer=optimizer)
     return discriminator
 
-discriminator = create_descriminator()
+discriminator = create_discriminator()
 generator = create_generator()
 
 # Make the discriminator untrainable when we are training the generator.  This doesn't effect the discriminator by itself
@@ -116,9 +116,9 @@ def show_images(noise, epoch=None):
     for i, image in enumerate(generated_images):
         plt.subplot(10, 10, i+1)
         if channels == 1:
-            plt.imshow(image.reshape((img_rows, img_cols)), cmap='gray')
+            plt.imshow(np.clip(image.reshape((img_rows, img_cols)), 0.0, 1.0), cmap='gray')
         else:
-            plt.imshow(image.reshape((img_rows, img_cols, channels)))
+            plt.imshow(np.clip(image.reshape((img_rows, img_cols, channels)), 0.0, 1.0))
         plt.axis('off')
     
     plt.tight_layout()
