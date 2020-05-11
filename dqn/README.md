@@ -17,7 +17,7 @@ Explanation of files:
 * `visualize-replaybuffer.py`: Turn the DQN's experiences into a scatterplot (code for second article)
 
 ---
-
+ 
 I would like to give a shout-out to both [this](https://github.com/fg91/Deep-Q-Learning/blob/master/DQN.ipynb) notebook by Fabio M. Graetz, and [this](https://www.youtube.com/watch?v=5fHngyN8Qhw) video by Machine Learning with Phil for inspiring this project and getting me started with the code. Both sources have been useful countless times, and I feel safe to say this article would not exist without them.
 
 ## Requirements (important)
