@@ -3,6 +3,7 @@
 
 Available here: https://medium.com/analytics-vidhya/get-more-out-of-google-colab-5bf9d9519a56
 
-[Open in Colaboratory](https://colab.research.google.com/drive/1ybHEPTch9uOIToR8OzdefMAoMjI4a9Yc)
-
 *Credit to the Google Colab team for some of the examples.*
+
+## Requirements
+* Works out of the box on Google Colab!
