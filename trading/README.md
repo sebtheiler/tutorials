@@ -3,6 +3,8 @@
 
 Available here: https://medium.com/analytics-vidhya/the-alpaca-api-explained-for-people-who-want-to-get-started-trading-7e57f0af7a
 
+Important: marketwatch.com, the backend for how we previously were getting live stock prices now blocks webscrapers.  This may be possible to bypass, but currently both `simply_algo.py` and `simple_algo.ipynb` are rendered useless because of this.
+
 ## Requirements
 * Tested in Python 3.7.7 (pretty much any version of Python 3 should work)
 * beautifulsoup4==4.9.0
