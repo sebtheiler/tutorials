@@ -11,7 +11,7 @@ My Medium account: https://medium.com/@sebastiankt9
 
 * [**Get More Out of Google Colab**](https://medium.com/analytics-vidhya/get-more-out-of-google-colab-5bf9d9519a56): [gcolab-tricks/](gcolab-tricks/)
 
-* [**The Alpaca API Explained for People Who Want to Get Started Trading**](https://medium.com/analytics-vidhya/the-alpaca-api-explained-for-people-who-want-to-get-started-trading-7e57f0af7a): [trading/](trading/)
+* [**The Alpaca API Explained for People Who Want to Get Started Trading**](https://medium.com/analytics-vidhya/the-alpaca-api-explained-for-people-who-want-to-get-started-trading-7e57f0af7a) (semi-outdated): [trading/](trading/)
 
 * [**Building a Twitter Sentiment-Analysis App Using Streamlit**](https://medium.com/analytics-vidhya/building-a-twitter-sentiment-analysis-app-using-streamlit-d16e9f5591f8): [twitter-sentiment/](twitter-sentiment/)
 
