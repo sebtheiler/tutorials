@@ -25,7 +25,7 @@ class GoogleDriveSaver(Callback):
         self.frequency = frequency
 
         # Search for folder to save in
-        file_list = drive.ListFile({'q': f"title='{folder_name}' and trashed=false and mimeType='application/vnd.google-apps.folder'"}).GetList() # TODO: mimetype and not trashed
+        file_list = drive.ListFile({'q': f"title='{folder_name}' and trashed=false and mimeType='application/vnd.google-apps.folder'"}).GetList()
         if len(file_list) > 1:
             raise ValueError('There are multiple folders with that specified folder name')
         elif len(file_list) == 0:
