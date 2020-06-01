@@ -1,7 +1,7 @@
 # How To Connect Google Drive to Python using PyDrive
 #### The Ultimate PyDrive Tutorial
 
-Available here: COMING SOON!
+Available here: https://medium.com/analytics-vidhya/how-to-connect-google-drive-to-python-using-pydrive-9681b2a14f20
 
 ## Requirements
 * Tested in Python 3.7.7 (pretty much any version of Python 3 should work)
