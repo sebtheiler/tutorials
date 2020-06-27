@@ -3,8 +3,8 @@ from config import (BATCH_SIZE, CLIP_REWARD, DISCOUNT_FACTOR, ENV_NAME,
                     LEARNING_RATE, LOAD_FROM, LOAD_REPLAY_BUFFER,
                     MAX_EPISODE_LENGTH, MAX_NOOP_STEPS, MEM_SIZE,
                     MIN_REPLAY_BUFFER_SIZE, PRIORITY_SCALE, SAVE_PATH,
-                    TENSORBOARD_DIR, TOTAL_FRAMES, UPDATE_FREQ, USE_PER,
-                    WRITE_TENSORBOARD)
+                    TARGET_UPDATE_FREQ, TENSORBOARD_DIR, TOTAL_FRAMES,
+                    UPDATE_FREQ, USE_PER, WRITE_TENSORBOARD)
 
 import numpy as np
 import cv2
@@ -595,7 +595,7 @@ if __name__ == "__main__":
                             loss_list.append(loss)
 
                         # Update target network
-                        if frame_number % UPDATE_FREQ == 0 and frame_number > MIN_REPLAY_BUFFER_SIZE:
+                        if frame_number % TARGET_UPDATE_FREQ == 0 and frame_number > MIN_REPLAY_BUFFER_SIZE:
                             agent.update_target_network()
 
                         # Break the loop when the game is over
