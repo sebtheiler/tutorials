@@ -20,6 +20,8 @@ Explanation of files:
  
 I would like to give a shout-out to both [this](https://github.com/fg91/Deep-Q-Learning/blob/master/DQN.ipynb) notebook by Fabio M. Graetz, and [this](https://www.youtube.com/watch?v=5fHngyN8Qhw) video by Machine Learning with Phil for inspiring this project and getting me started with the code. Both sources have been useful countless times, and I feel safe to say this article would not exist without them.
 
+There is currently a slight bug where the target network and main network are updated at a rate controlled by the same variable.  To see the fixed version, please head to the branch `dqn-fix`.  I'm currently away and cannot test the fix to completion (although it appears to work as expected), but as soon as it is fully tested `dqn-fix` will be merged.
+
 ## Requirements (important)
 * Tested in Python 3.7.7 (pretty much any version of Python 3 should work)
 * tensorflow-gpu==2.1.0
