@@ -251,7 +251,7 @@ class ReplayBuffer:
 
         if self.use_per:
             # Get importance weights from probabilities calculated earlier
-            importance = 1/self.count * 1/sample_probabilities[[index - 4 for index in indices]]
+            importance = 1/self.count * 1/sample_probabilities[[index - self.history_length for index in indices]]
             importance = importance / importance.max()
 
             return (states, self.actions[indices], self.rewards[indices], new_states, self.terminal_flags[indices]), importance, indices
