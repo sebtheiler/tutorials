@@ -1,9 +1,11 @@
 # tutorials
-All of the code for my Medium articles
+All of the code for my Medium articles.
+
+_**Update (2021/11/28):** Unfortunately, I am no longer writing new articles and this repository is no longer being updated.  Thank you to everyone who has ever read my pieces!  I'm so glad I could share some of my knowledge of AI and data science with you guys!  It's been an honor and I'm sad to leave, but I've moved on to other projects now.  As such, I can't make any guarantee that the code here is still up to date, and I probably won't reply to any issues/PRs.  Thank you again for being here; it's really been my honor.  Farewell!  And until next time, happy coding!_
+
+_(I might return one day, but that won't be soon)_
 
 My Medium account: https://medium.com/@sebastiankt9
-
-My Twitter account: https://twitter.com/seb_theiler
 
 * [**How to Connect Google Drive to Python?**](https://medium.com/analytics-vidhya/how-to-connect-google-drive-to-python-using-pydrive-9681b2a14f20): [pydrive/](pydrive/)
 
@@ -30,11 +32,3 @@ My Twitter account: https://twitter.com/seb_theiler
 * [**Implementing Adversarial Attacks and Defenses in Keras & Tensorflow 2.0**](https://medium.com/analytics-vidhya/implementing-adversarial-attacks-and-defenses-in-keras-tensorflow-2-0-cab6120c5715): [adversarial-attacks-defenses/](adversarial-attacks-defenses/)
 
 * [**Basics of Using Pre-trained GloVe Vectors in Python**](https://medium.com/analytics-vidhya/basics-of-using-pre-trained-glove-vectors-in-python-d38905f356db): [using-pretrained-glove-vectors/](using-pretrained-glove-vectors/)
-
-
-
-### Hall of fame
-
-The following is a list of people who have contributed to this repository/my Medium through things such as spotting typos, finding bugs, or giving suggestions.  If you believe you should be on this list and aren't, or if you are on this list and would like to be taken off, let me know and I will update it as soon as possible.
-
-[Stephen](https://github.com/sgodfrey66 "Stephen Godfrey's GitHub - May 11") [Godfrey](https://medium.com/@stevegodfrey_25218 "Stephen Godfrey's Medium - May 11"), [Sal Borrelli](https://medium.com/@salborrelli "Sal Borrelli's Medium - May 11"), [Yury Petrov](https://medium.com/@petrovy1 "Yury Petrov's Medium - Mar 30"), [АндрейКо](https://github.com/Alster "АндрейКо's GitHub - Mar 26"), [Emerging Mind](https://medium.com/@emergingmind "Emerging Mind's Medium - Mar 18"), [SiamakShams](https://github.com/SiamakShams "SiamakSham's GitHub - Mar 8"), [Peter Mayhew](https://medium.com/@petermayhew_40839 "Peter Mayhew's Medium - Jan 5"), [Rafael Rivadeneira](https://github.com/rafariva "Rafael Rivadeneir's GitHub - Dec 17")
